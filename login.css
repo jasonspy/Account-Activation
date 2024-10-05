@@ -1,0 +1,135 @@
+body {
+    background: white;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+/* From Uiverse.io by mrhyddenn */ 
+.form__group {
+  position: relative;
+  padding: 20px 0 0;
+  width: 100%;
+  max-width: 180px;
+}
+.login-form {
+    padding: 3.5rem;
+    margin-top: -3rem;
+}
+
+.main {
+    background: white;
+    padding: 1rem;
+    margin-right: -1rem;
+    margin-left: -1rem;
+}
+.main input {
+    width: 97%;
+    padding: 5px;
+    margin: auto;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    height: 2.3rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    border: 1px solid rgb(185, 183, 183);
+}
+
+.form__field {
+  font-family: inherit;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 17px;
+  color: #fff;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+.form__field::placeholder {
+  color: transparent;
+}
+
+.form__field:placeholder-shown ~ .form__label {
+  font-size: 17px;
+  cursor: text;
+  top: 20px;
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 17px;
+  color: #9b9b9b;
+  pointer-events: none;
+}
+
+.form__field:focus {
+  padding-bottom: 6px;
+  font-weight: 300;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #116399, #38caef);
+  border-image-slice: 1;
+}
+
+.form__field:focus ~ .form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 17px;
+  color: #38caef;
+  font-weight: 700;
+}
+
+/* reset input */
+.form__field:required, .form__field:invalid {
+  box-shadow: none;
+}
+
+.header img {
+    width: 13rem;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+.header h3 {
+    text-align: center;
+    margin-top: -2rem;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.bottom p {
+    font-size: 12px;
+    margin-top: -2rem;
+    padding: 1rem;
+    color: rgb(20, 20, 197);
+}
+
+button {
+    width: 70%;
+    margin-left: 3rem;
+    border-radius: 7px;
+    border: none;
+    height: 2.5rem;
+}
+
+button a {
+    padding: 2rem;
+    margin: 2rem;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1rem;
+}

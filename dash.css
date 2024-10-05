@@ -1,0 +1,78 @@
+body {
+    background: white;
+}
+
+.text img {
+    width: 13rem;
+    margin: 2rem;
+}
+
+.text p {
+    text-align: center;
+    margin-top: -2.5rem;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+.profile img {
+    width: 7rem;
+    padding: 4rem;
+    margin-top: -7rem;
+}
+.profile {
+    border-radius: 2rem;
+
+    margin: 2rem;
+}
+.profile p {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.bal {
+    background: rgb(74, 102, 240);
+    width: 100%;
+    margin-top: -3rem;
+    border-radius: 8px;
+    padding: 2px;
+     font-family: "Poppins", sans-serif;
+    font-style: normal;
+    box-shadow: 2px solid rgb(0, 40, 241);
+}
+.personal h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+.det {
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+    justify-content: space-evenly;
+}
+
+.det img {
+    width: 3rem;
+    height: 3rem;
+}
+.det .name {
+    text-align: center;
+    color: rgb(122, 122, 122);
+}
+
+
+button {
+    width: 100%;
+    border-radius: 7px;
+    border: none;
+    text-align: center;
+    height: 2.5rem;
+}
+
+button a {
+    padding: 2rem;
+    margin: 2rem;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 0.8rem;
+}
